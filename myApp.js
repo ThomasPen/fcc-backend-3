@@ -1,6 +1,9 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 const mongo_URI = process.env.MONGO_URI;
+var ghpages = require('gh-pages');
+
+
 // to assign variables to other variables in .env, you have to use dotenv-expand
 // otherwise, if you want to compose your varaibles, you have to concatenate the final variable in js, as .env by itself can only store raw strings.
 
